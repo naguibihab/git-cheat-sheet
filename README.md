@@ -1,5 +1,5 @@
 # git-cheat-sheet
-### Most used
+## Most used
 Checkout existing branch
 
 `git checkout <branchname>`
@@ -78,7 +78,7 @@ See all local & remote branches
 `git branch --all`
 
 
-### Advanced
+## Advanced
 Reverting a commit
 
 `git revert <commitid>`
