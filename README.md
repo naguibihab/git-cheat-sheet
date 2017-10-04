@@ -56,7 +56,7 @@
 `git checkout path/to/file`
 
 ## Customisations
-##### A better looking git log
+### A better looking git log
 ![git-lg](https://raw.githubusercontent.com/naguibihab/git-cheat-sheet/master/assets/git-lg.png)
 
 `git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
@@ -65,7 +65,7 @@ Then type `git lg` to get the log
 
 [Credits](https://coderwall.com/p/euwpig/a-better-git-log)
 
+### A nice GUI for git on node.js
+![git-lg](https://raw.githubusercontent.com/naguibihab/git-cheat-sheet/master/assets/ungit.png)
 
-### References
-###### A nice GUI for git on node.js
-![ungit](https://github.com/FredrikNoren/ungit)
+For installation and usage check ![ungit's git repo](https://github.com/FredrikNoren/ungit)
