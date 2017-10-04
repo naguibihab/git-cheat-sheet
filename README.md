@@ -1,4 +1,4 @@
-# git-cheat-sheet
+# Git Goodies
 ## Most used
 ##### Checkout existing branch
 `git checkout <branchname>`
