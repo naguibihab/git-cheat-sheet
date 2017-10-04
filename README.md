@@ -82,3 +82,8 @@ See all local & remote branches
 Reverting a commit
 
 `git revert <commitid>`
+
+Reverting a change in a particular file
+
+`git checkout path/to/file`
+
