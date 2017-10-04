@@ -1,7 +1,19 @@
 # Git Goodies
-## Most used
+A collection of the most used git commands
+## Basic
+### Branching
+
+##### See all local branches
+`git branch`
+
+##### See all local & remote branches
+`git branch --all`
+
 ##### Checkout existing branch
 `git checkout <branchname>`
+
+##### Force checkout
+`git checkout --force` **warning** this may overwrite some uncommitted changes
 
 ##### Create a new branch out of the one you're on right now 
 `git checkout -b <newbranch>`
@@ -12,6 +24,8 @@
 ##### Fetch changes (Note: this doesn't pull or update local branches)
 `git fetch --all`
 
+
+### Making changes
 ##### View current branch, staged, local commits..etc
 `git status`
 
@@ -42,18 +56,24 @@
 ##### Push and set upstream
 `git push --set-upstream origin <branchname>`
 
-##### See all local branches
-`git branch`
+### Merging
+##### Merging two branches
+`git merge <branchname>`
 
-##### See all local & remote branches
-`git branch --all`
-
-## Advanced
+### Undoing
 ##### Reverting a commit
 `git revert <commitid>`
 
 ##### Reverting a change in a particular file
 `git checkout path/to/file`
+
+##### Reset uncommitted changes
+`git reset --hard` **warning** this will remove all tracked but uncommitted changes
+
+##### Resolving conflicts
+Prerequesit: having a merge tool installed & setup with git, check [this article](https://www.linkedin.com/pulse/git-bash-tips-tricks-naguib-ihab/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_post_details%3BH1ylzOTFQ5ex6cw1yhOwTg%3D%3D) for setting up kdfif3 
+
+`git mergetool`
 
 ## Customisations
 ### A better looking git log
@@ -68,4 +88,4 @@ Then type `git lg` to get the log
 ### A nice GUI for git on node.js
 ![git-lg](https://raw.githubusercontent.com/naguibihab/git-cheat-sheet/master/assets/ungit.png)
 
-For installation and usage check ![ungit's git repo](https://github.com/FredrikNoren/ungit)
+For installation and usage check [ungit's git repo](https://github.com/FredrikNoren/ungit)
