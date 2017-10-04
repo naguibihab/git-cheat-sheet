@@ -1,89 +1,71 @@
 # git-cheat-sheet
 ## Most used
-Checkout existing branch
-
+###### Checkout existing branch
 `git checkout <branchname>`
 
-Create a new branch out of the one you're on right now 
-
+###### Create a new branch out of the one you're on right now 
 `git checkout -b <newbranch>`
 
-Pull & update local branch
-
+###### Pull & update local branch
 `git pull`
 
-
-Fetch changes (Note: this doesn't pull or update local branches)
-
+###### Fetch changes (Note: this doesn't pull or update local branches)
 `git fetch --all`
 
-
-View current branch, staged, local commits..etc
-
+###### View current branch, staged, local commits..etc
 `git status`
 
 
-See the differences introduced in the staged files (before staging)
-
+###### See the differences introduced in the staged files (before staging)
 `git diff`
 
 
-Stage changes
-
+###### Stage changes
 `git add --all` or `git add .`
 
 
-Unstage changes
-
+###### Unstage changes
 `git reset`
 
 
-Commit changes
-
+###### Commit changes
 `git commit -m "my commit message"`
 
 
-Stage and commit
-
+###### Stage and commit
 `got commit -a -m "my commit message"`
 
 
-See previous commits
-
+###### See previous commits
 `git log`
 
 
-See last commit
-
+###### See last commit
 `git log -1`
 
 
-Push changes
-
+###### Push changes
 `git push`
 
 
-Push and set upstream
-
+###### Push and set upstream
 `git push --set-upstream origin <branchname>`
 
 
-See all local branches
-
+###### See all local branches
 `git branch`
 
 
-See all local & remote branches
-
+###### See all local & remote branches
 `git branch --all`
 
 
 ## Advanced
-Reverting a commit
-
+###### Reverting a commit
 `git revert <commitid>`
 
-Reverting a change in a particular file
-
+###### Reverting a change in a particular file
 `git checkout path/to/file`
 
+
+## Customisations
