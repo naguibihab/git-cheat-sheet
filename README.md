@@ -1,7 +1,7 @@
 # Git Goodies
 A collection of the most used git commands
-## Basic
-### Branching
+# Basic
+## Branching
 
 ##### See all local branches
 `git branch`
@@ -25,7 +25,7 @@ A collection of the most used git commands
 `git fetch --all`
 
 
-### Making changes
+## Making changes
 ##### View current branch, staged, local commits..etc
 `git status`
 
@@ -56,11 +56,11 @@ A collection of the most used git commands
 ##### Push and set upstream
 `git push --set-upstream origin <branchname>`
 
-### Merging
+## Merging
 ##### Merging two branches
 `git merge <branchname>`
 
-### Undoing
+## Undoing
 ##### Reverting a commit
 `git revert <commitid>`
 
@@ -73,8 +73,8 @@ A collection of the most used git commands
 ##### Resolving conflicts
 `git mergetool` **prerequesit** having a merge tool installed & setup with git, check [this article](https://www.linkedin.com/pulse/git-bash-tips-tricks-naguib-ihab/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_post_details%3BH1ylzOTFQ5ex6cw1yhOwTg%3D%3D) for setting up kdfif3 
 
-## Customisations
-### A better looking git log
+# Customisations
+## A better looking git log
 ![git-lg](https://raw.githubusercontent.com/naguibihab/git-cheat-sheet/master/assets/git-lg.png)
 
 `git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
@@ -83,7 +83,7 @@ Then type `git lg` to get the log
 
 [Credits](https://coderwall.com/p/euwpig/a-better-git-log)
 
-### A nice GUI for git on node.js
+## A nice GUI for git on node.js
 ![git-lg](https://raw.githubusercontent.com/naguibihab/git-cheat-sheet/master/assets/ungit.png)
 
 For installation and usage check [ungit's git repo](https://github.com/FredrikNoren/ungit)
