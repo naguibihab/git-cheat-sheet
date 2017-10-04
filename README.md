@@ -58,5 +58,7 @@
 ## Customisations
 ##### A better looking git log
 ![git-lg](https://raw.githubusercontent.com/naguibihab/git-cheat-sheet/master/assets/git-lg.png)
+
 `git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
+
 [Credits](https://coderwall.com/p/euwpig/a-better-git-log)
