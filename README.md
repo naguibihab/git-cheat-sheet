@@ -64,3 +64,8 @@
 Then type `git lg` to get the log
 
 [Credits](https://coderwall.com/p/euwpig/a-better-git-log)
+
+
+### References
+###### A nice GUI for git on node.js
+![ungit](https://github.com/FredrikNoren/ungit)
