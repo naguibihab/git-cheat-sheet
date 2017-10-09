@@ -64,6 +64,9 @@ A collection of the most used git commands
 ##### Reverting a commit
 `git revert <commitid>`
 
+##### Reverting a merge to original parent
+`git revert <commitid> -m 1`
+
 ##### Reverting a change in a particular file
 `git checkout path/to/file`
 
