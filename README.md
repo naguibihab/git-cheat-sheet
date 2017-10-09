@@ -74,7 +74,14 @@ A collection of the most used git commands
 `git reset --hard` **warning** this will remove all tracked but uncommitted changes
 
 ##### Resolving conflicts
-`git mergetool` **prerequesit** having a merge tool installed & setup with git, check [this article](https://www.linkedin.com/pulse/git-bash-tips-tricks-naguib-ihab/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_post_details%3BH1ylzOTFQ5ex6cw1yhOwTg%3D%3D) for setting up kdfif3 
+`git mergetool` **prerequesit** having a merge tool installed & setup with git, check [this article](https://www.linkedin.com/pulse/git-bash-tips-tricks-naguib-ihab/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_post_details%3BH1ylzOTFQ5ex6cw1yhOwTg%3D%3D) for setting up kdfif3
+
+## Cleaning up
+##### Deleting a branch
+`git branch -d <branchname>`
+
+##### Deleting all branches but keeping master
+`git branch | grep -v "master" | xargs git branch -d`
 
 # Customisations
 ## A better looking git log
