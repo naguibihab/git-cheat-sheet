@@ -50,6 +50,9 @@ A collection of the most used git commands
 ##### See last commit
 `git log -1`
 
+##### See changes in last commit
+`git log -p -1`
+
 ##### Push changes
 `git push`
 
