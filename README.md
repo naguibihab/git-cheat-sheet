@@ -86,6 +86,17 @@ A collection of the most used git commands
 ##### Deleting all branches but keeping master
 `git branch | grep -v "master" | xargs git branch -d`
 
+---
+# Reports
+##### Shows all the code introduced by the user `n.ihab@edquire.com` in the past `2.weeks`
+```
+git diff -p `git rev-list -n1 --since=2.weeks master --author=n.ihab@edquire.com` --stat
+```
+
+[Credits](https://www.quora.com/How-do-I-generate-a-git-commit-report)
+
+---
+
 # Customisations
 ## A better looking git log
 ![git-lg](https://raw.githubusercontent.com/naguibihab/git-cheat-sheet/master/assets/git-lg.png)
