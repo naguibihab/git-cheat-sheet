@@ -95,6 +95,12 @@ git diff -p `git rev-list -n1 --since=2.weeks master --author=n.ihab@edquire.com
 
 [Credits](https://www.quora.com/How-do-I-generate-a-git-commit-report)
 
+
+#### Shows all the commits introduced by the user `n.ihab@edquire.com` in the past `2.weeks`
+`git log --branches=* --author=n.ihab@edquire.com --since=1.weeks --oneline --reverse`
+
+[Credits](https://www.alexkras.com/generate-weekly-reports-from-your-git-commits/)
+
 ---
 
 # Customisations
