@@ -71,6 +71,9 @@
 ##### Reverting a change in a particular file
 `git checkout path/to/file`
 
+##### Reverting a change in a particular file to a particular commit
+`git checkout <commitid> path/to/file`
+
 ##### Reset uncommitted changes
 `git reset --hard` **warning** this will remove all tracked but uncommitted changes
 
